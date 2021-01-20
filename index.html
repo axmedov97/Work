@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-Lesson JS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Calculator</h3>
+                </div>
+                <div class="card-body">
+                    <input type="number" class="form-control" id="number-one" placeholder="First number">
+                    <select id="action" class="form-control">
+                        <option value="add">Qo'shish</option>
+                        <option value="subtract">Ayirish</option>
+                        <option value="multiply">Ko'paytirish</option>
+                        <option value="divide">Bo'lish</option>
+                        <option value="root">Ildiz chiqarish</option>
+
+                    </select>
+                    <input type="number" class="form-control" id="number-two" placeholder="Second number">
+                    <button type="button" class="btn btn-success btn-block my-3" onclick="calc()">Calc</button>
+                    <div id="result" >Natija:</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+</body>
+</html>
